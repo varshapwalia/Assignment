@@ -31,7 +31,6 @@ public class JavaApplication {
     
        for(int j=1;j<=m;j++){
          int n = in.nextInt();
-		System.out.println("Bit string cases of number:"+fib_fast(n));
-  			}
-  }
+	System.out.println("Bit string cases of number:"+fib_fast(n));
+  }}
 }
