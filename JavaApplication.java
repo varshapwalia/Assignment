@@ -26,8 +26,12 @@ public class JavaApplication {
   public static void main(String args[]) {
     Scanner in = new Scanner(System.in);
     System.out.println("Please enter Number of test Cases");
-    int n = in.nextInt();
-       
-	System.out.println(fib_fast(n));
+    int m = in.nextInt();
+               System.out.println("Please Put the test case numbers");
+    
+       for(int j=1;j<=m;j++){
+         int n = in.nextInt();
+		System.out.println("Bit string cases of number:"+fib_fast(n));
+  			}
   }
 }
